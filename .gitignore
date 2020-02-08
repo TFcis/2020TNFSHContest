@@ -9,4 +9,5 @@
 */tests/gen_summary
 */tests/mapping
 
-score.txt
+Route/tests/*.in
+Route/tests/*.out
