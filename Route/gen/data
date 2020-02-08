@@ -1,0 +1,5 @@
+@subtask 1
+gen 100 100 aaaa
+
+@subtask 2
+gen 1000 1000 aaaa

@@ -1,0 +1,11 @@
+{
+	"name": "Route",
+	"code": "Route",
+	"title": "路徑個數",
+	"memory_limit": 256,
+	"time_limit": 1.0,
+	"type": "Batch",
+	"description": "",
+	"tps_web_url": "",
+	"has_grader": false
+}

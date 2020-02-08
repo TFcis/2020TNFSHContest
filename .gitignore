@@ -1,0 +1,10 @@
+*.exe
+*.pdf
+
+# TPS files
+*/gen/._gen.cpp.compile.out
+*/logs/
+*/sandbox/
+*/scripts/
+
+score.txt
