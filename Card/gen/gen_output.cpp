@@ -1,0 +1,29 @@
+#include "mylib.hpp"
+
+inline string int_to_string(int val) {
+	return (val < 10 ? "0" : "") + Other::int_to_string(val);
+}
+int main() {
+	const int subtask_number = 6;
+	int task_number[subtask_number] = {3,4,4,4,6,6};    // tot 27
+	for(int i=1;i<=subtask_number;i++) {
+		for(int j=1;j<=task_number[i-1];j++) {
+			string id = (char)(i + '0') + int_to_string(j);
+			string path = "../testdata/";
+
+			string in = path + id + ".in";
+			string out = path + id + ".ans";
+			
+			string op = "100pt.exe";
+			
+			op = op + " < " + in + " > " + out; 
+//			op = op + " < " + in; 
+			cout << op << endl;
+			double t1 = clock();
+			system(op.c_str());
+			cout << clock()-t1 << " ms" << endl;
+		}
+	}
+	return 0;
+}
+
