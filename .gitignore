@@ -6,5 +6,7 @@
 */logs/
 */sandbox/
 */scripts/
+*/tests/gen_summary
+*/tests/mapping
 
 score.txt
