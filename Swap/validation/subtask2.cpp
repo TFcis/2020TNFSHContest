@@ -28,16 +28,15 @@ int main() {
 			cin >> l >> r;
 //			assert(1 <= l && l <= r && r <= n);
 			
-			int ans = 0;
-			for(int i=r;i>=l;i--)
-				if(arr[i] != i) {
-					for(int j=1;j<=n;j++)
-						if(arr[j] == i) {
-							swap(arr[i],arr[j]);
-							break;
-						}
-					ans++;
-				}
+            int ans = 0; 
+            for(int i=l;i<=r;i++) 
+                for(int j=1;j<=n;j++) 
+                    if(arr[j] == i) { 
+                        swap(arr[i],arr[j]); 
+                        if(arr[i] != arr[j]) 
+                            ans++; 
+                        break; 
+                    } 
 				
 			cout << ans << endl;
 		}
