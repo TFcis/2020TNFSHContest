@@ -1,9 +1,3 @@
----
-problemLabel: D
-problemName: 路徑個數
-problemId: Route
----
-
 #
 
 給一個只包含 0 至 9 的矩陣，求從任意點出發任意點結束且路徑剛好依序經過 0 至 9 各一次的方法有多少種。  
