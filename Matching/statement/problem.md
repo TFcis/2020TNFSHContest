@@ -1,9 +1,3 @@
----
-problemLabel: B
-problemName: 連連看
-problemId: Matching
----
-
 #
 
 ![](Matching.png){ height=300px }
