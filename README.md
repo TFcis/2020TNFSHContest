@@ -14,3 +14,14 @@
  - score.txt: CMS 上的 Score Type 和 Score Parameters
  
 使用 `newtask.sh` 建立題目資料夾結構
+
+## Quick Links
+
+| ID | gen | solution | tests | statement | validator | others |
+| --- | --- | --- | --- | --- | --- | --- |
+| Card | [gen](Card/gen) | [solution](Card/solution) | [tests](Card/tests) | [problem.md](Card/problem.md) | [validator](Card/validator) | |
+| Matching | [gen](Matching/gen) | [solution](Matching/solution) | [tests](Matching/tests) | [problem.md](Matching/problem.md) | [validator](Matching/validator) | |
+| Puyo | [gen](Puyo/gen) | [solution](Puyo/solution) | [tests](Puyo/tests) | [problem.md](Puyo/problem.md) | [validator](Puyo/validator) | |
+| Route | [gen](Route/gen) | [solution](Route/solution) | [tests](Route/tests) | [statement](Route/statement) [problem.md](Route/statement/problem.md) | [validator](Route/validator) | [problem.json](Route/problem.json) [solutions.json](Route/solutions.json) |
+| Swap | [gen](Swap/gen) | [solution](Swap/solution) | [tests](Swap/tests) | [problem.md](Swap/problem.md) | [validator](Swap/validator) | |
+| Tree | [gen](Tree/gen) | [solution](Tree/solution) | [tests](Tree/tests) | [problem.md](Tree/problem.md) | [validator](Tree/validator) | |
