@@ -3,16 +3,7 @@
 #define endl '\n'
 using namespace std;
 
-int main(int argc, char* argv[]) {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
-	registerGen(argc, argv, 1);
-
-	int MIN_N = atoi(argv[1]);
-	int MAX_N = atoi(argv[2]);
-	int MIN_M = atoi(argv[3]);
-	int MAX_M = atoi(argv[4]);
-
+void gen_norm(int MIN_N, int MAX_N, int MIN_M, int MAX_M) {
 	int N = rnd.next(MIN_N, MAX_N);
 	int M = rnd.next(MIN_M, MAX_M);
 
@@ -70,5 +61,59 @@ int main(int argc, char* argv[]) {
 			cout<<arr[q][w];
 		}
 		cout<<endl;
+	}
+}
+
+void gen_slope(int N, int M) {
+	cout<<N<<" "<<M<<endl;
+
+	for(int q=0; q<N; q++) {
+		for(int w=0; w<M; w++) {
+			cout<<(q+w)%10;
+		}
+		cout<<endl;
+	}
+}
+
+void gen_rhombus(int N, int M) {
+	cout<<N<<" "<<M<<endl;
+
+	int HALF_N = N/2;
+	int HALF_M = M/2;
+
+	for(int q=0; q<N; q++) {
+		for(int w=0; w<M; w++) {
+			cout<<(abs(q-HALF_N)+abs(w-HALF_M))%10;
+		}
+		cout<<endl;
+	}
+}
+
+int main(int argc, char* argv[]) {
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	registerGen(argc, argv, 1);
+
+	string MODE = argv[1];
+
+	if (MODE == "norm") {
+		int MIN_N = atoi(argv[2]);
+		int MAX_N = atoi(argv[3]);
+		int MIN_M = atoi(argv[4]);
+		int MAX_M = atoi(argv[5]);
+
+		gen_norm(MIN_N, MAX_N, MIN_M, MAX_M);
+	} else if (MODE == "slope") {
+		int N = atoi(argv[2]);
+		int M = atoi(argv[3]);
+
+		gen_slope(N, M);
+	} else if (MODE == "rhombus") {
+		int N = atoi(argv[2]);
+		int M = atoi(argv[3]);
+
+		gen_rhombus(N, M);
+	} else {
+		return -1;
 	}
 }

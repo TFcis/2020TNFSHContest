@@ -1,20 +1,22 @@
 @subtask 1
-gen 5 30 30 30 ydmtx
-gen 5 30 30 30 zrnhj
-gen 30 30 5 30 qutxm
-gen 30 30 5 30 iqsds
-gen 30 30 30 30 qsvsu
+gen norm 5 30 30 30 ydmtx
+gen norm 5 30 30 30 zrnhj
+gen norm 30 30 5 30 qutxm
+gen norm 30 30 5 30 iqsds
+gen norm 30 30 30 30 qsvsu
 
 @subtask 2
-gen 10 100 10 100 csizh
-gen 10 100 10 100 xtqcy
-gen 10 100 10 100 ilhti
-gen 10 100 10 100 qzgrn
-gen 10 100 10 100 bhsud
+gen norm 10 100 10 100 csizh
+gen norm 10 100 10 100 xtqcy
+gen norm 10 100 10 100 ilhti
+gen norm 10 100 10 100 qzgrn
+gen norm 10 100 10 100 bhsud
 
 @subtask 3
-gen 100 1000 100 1000 vhthf
-gen 100 1000 100 1000 jvnyj
-gen 100 1000 100 1000 mtkbd
-gen 100 1000 100 1000 cihky
-gen 1000 1000 1000 1000 xnvey
+gen norm 100 1000 100 1000 vhthf
+gen norm 100 1000 100 1000 jvnyj
+gen norm 100 1000 100 1000 mtkbd
+gen norm 100 1000 100 1000 cihky
+gen norm 1000 1000 1000 1000 xnvey
+gen slope 1000 1000
+gen rhombus 1000 1000
