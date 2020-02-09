@@ -20,7 +20,7 @@
 | ID | gen | solution | tests | statement | validator | others |
 | --- | --- | --- | --- | --- | --- | --- |
 | Card | [gen](Card/gen) | [solution](Card/solution) | [tests](Card/tests) | [problem.md](Card/problem.md) | [validator](Card/validator) | |
-| Matching | [gen](Matching/gen) | [solution](Matching/solution) | [tests](Matching/tests) | [problem.md](Matching/problem.md) | [validator](Matching/validator) | |
+| Matching | [gen](Matching/gen) | [solution](Matching/solution) | [tests](Matching/tests) | [statement](Matching/statement) [problem.md](Matching/statement/problem.md) | [validator](Matching/validator) | [problem.json](Matching/problem.json) |
 | Puyo | [gen](Puyo/gen) | [solution](Puyo/solution) | [tests](Puyo/tests) | [problem.md](Puyo/problem.md) | [validator](Puyo/validator) | |
 | Route | [gen](Route/gen) | [solution](Route/solution) | [tests](Route/tests) | [statement](Route/statement) [problem.md](Route/statement/problem.md) | [validator](Route/validator) | [problem.json](Route/problem.json) [solutions.json](Route/solutions.json) |
 | Swap | [gen](Swap/gen) | [solution](Swap/solution) | [tests](Swap/tests) | [problem.md](Swap/problem.md) | [validator](Swap/validator) | |

@@ -8,5 +8,6 @@
 */tests/gen_summary
 */tests/mapping
 
+Matching/tests/*.in
 Route/tests/*.in
 Route/tests/*.out
