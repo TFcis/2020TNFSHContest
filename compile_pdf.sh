@@ -8,6 +8,6 @@ cd "$1"
 
 echo "Compiling $1"
 
-pandoc -M contestName="$contestName" -T "" problem.md -o problem.pdf --template ../template.tex -f markdown -t latex -s --latex-engine=xelatex
+pandoc -M contestName="$contestName" -T "" problem.md -o problem.pdf --template ../template.tex -f markdown -t latex -s --pdf-engine=xelatex
 
 echo "Compile Finish"
