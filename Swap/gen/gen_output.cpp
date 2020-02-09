@@ -9,15 +9,15 @@ int main() {
 	for(int i=1;i<=subtask_number;i++) {
 		for(int j=1;j<=task_number[i-1];j++) {
 			string id = (char)(i + '0') + int_to_string(j);
-			string path = "../testdata/";
+			string path = "../tests/";
 
 			string in = path + id + ".in";
 			string out = path + id + ".ans";
-			
+
 			string op = "100pt.exe";
-			
-			op = op + " < " + in + " > " + out; 
-//			op = op + " < " + in; 
+
+			op = op + " < " + in + " > " + out;
+//			op = op + " < " + in;
 			cout << op << endl;
 			double t1 = clock();
 			system(op.c_str());

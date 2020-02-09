@@ -1,12 +1,12 @@
 // subtask 2 : n,q <= 500
 #include "mylib.hpp"
 
-#define path "../testdata/2"
+#define path "../tests/2"
 
 int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
-	
+
 	for(int kase=1;kase<=3;kase++) {
 		int n = -1 , q = -1;
 		vector<op> ops;
@@ -36,11 +36,11 @@ int main() {
 					now.r = Random::random(1,n);
 					if(now.l > now.r)	swap(now.l,now.r);
 				}
-				
+
 				ops.emplace_back(now);
 			}
 		}
-		
+
 		Output::output(path,n,q,ops);
 	}
 	return 0;

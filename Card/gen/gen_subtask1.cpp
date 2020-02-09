@@ -1,17 +1,17 @@
 // subtask 1 : permutation = {1,2,3,...n} and n <= 10 and k = 1
 #include "mylib.hpp"
 
-#define path "../testdata/1"
+#define path "../tests/1"
 
 int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
-	
+
 	for(int kase=1;kase<=3;kase++) {
 		int n = -1;
 		vector<int> arr,nxt;
 		long long k = -1;
-		
+
 		if(kase == 1) {		// sample 1
 			n = 5;
 			arr = {1,2,3,4,5};
@@ -37,7 +37,7 @@ int main() {
 			Random::shuffle(nxt,6,4);
 			k = 1;
 		}
-		
+
 		Output::output(path,n,arr,nxt,k);
 	}
 	return 0;
