@@ -15,12 +15,6 @@ gen m1 100 1000 qzgrn
 gen m1 1000 1000 bhsud
 
 @subtask straight
-gen slope 100 1000 100 1000 vhthf
-gen slope 100 1000 100 1000 jvnyj
-gen slope 1000 1000 1000 1000 rygfn
-gen rhombus 100 1000 100 1000 mtkbd
-gen rhombus 100 1000 100 1000 cihky
-gen rhombus 1000 1000 1000 1000 xnvey
 
 @subtask nm<64
 gen norm 10 64 10 64 mfaax
