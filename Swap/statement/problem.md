@@ -1,9 +1,3 @@
----
-problemLabel: E
-problemName: 序列交換次數
-problemId: Swap
----
-
 #
 
 給定一個長度為 N 的序列，序列初始為 $1, 2, 3 ... N$  

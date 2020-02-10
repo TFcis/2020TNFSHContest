@@ -1,0 +1,35 @@
+{
+    "global_validators": [],
+    "subtasks": {
+          "1": {
+                "index": 1,
+                "score": 7,
+                "validators": []
+          },
+          "2": {
+                "index": 2,
+                "score": 8,
+                "validators": []
+          },
+          "3": {
+                "index": 3,
+                "score": 16,
+                "validators": []
+          },
+          "4": {
+                "index": 3,
+                "score": 18,
+                "validators": []
+          },
+          "5": {
+                "index": 3,
+                "score": 20,
+                "validators": []
+          },
+          "6": {
+                "index": 3,
+                "score": 31,
+                "validators": []
+          }
+    }
+}

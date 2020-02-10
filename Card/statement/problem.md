@@ -1,9 +1,3 @@
----
-problemLabel: A
-problemName: 洗牌
-problemId: Card
----
-
 #
 
 給定 $N$ 張牌，每張牌從 $1$ 至 $N$ 依序編號。  
