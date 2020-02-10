@@ -12,7 +12,7 @@ int main() {
 			string path = "../tests/";
 
 			string in = path + id + ".in";
-			string out = path + id + ".ans";
+			string out = path + id + ".out";
 
 			string op = "100pt.exe";
 
