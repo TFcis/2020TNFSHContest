@@ -148,13 +148,13 @@ int main(int argc, char* argv[]) {
 
 		gen_norm(MIN_N, MAX_N, MIN_M, MAX_M);
 	} else if (MODE == "n1") {
-		int MIN_M = atoi(argv[1]);
-		int MAX_M = atoi(argv[2]);
+		int MIN_M = atoi(argv[2]);
+		int MAX_M = atoi(argv[3]);
 
 		gen_nm1(1, MIN_M, MAX_M);
 	} else if (MODE == "m1") {
-		int MIN_N = atoi(argv[1]);
-		int MAX_N = atoi(argv[2]);
+		int MIN_N = atoi(argv[2]);
+		int MAX_N = atoi(argv[3]);
 
 		gen_nm1(2, MIN_N, MAX_N);
 	} else if (MODE == "slope") {
