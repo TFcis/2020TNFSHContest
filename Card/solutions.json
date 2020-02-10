@@ -1,5 +1,23 @@
 {
 	"100pt.cpp": {
 		"verdict": "model_solution"
+	},
+	"jump_table.cpp": {
+		"verdict": "correct"
+	},
+	"subtask1.cpp": {
+		"verdict": "partially_correct"
+	},
+	"subtask2.cpp": {
+		"verdict": "partially_correct"
+	},
+	"subtask3.cpp": {
+		"verdict": "partially_correct"
+	},
+	"subtask4.cpp": {
+		"verdict": "partially_correct"
+	},
+	"subtask5.cpp": {
+		"verdict": "partially_correct"
 	}
 }
