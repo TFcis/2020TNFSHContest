@@ -9,5 +9,7 @@
 */tests/mapping
 
 Matching/tests/*.in
+Puyo/tests/*.in
+Puyo/tests/*.out
 Route/tests/*.in
 Route/tests/*.out
