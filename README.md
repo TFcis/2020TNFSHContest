@@ -2,14 +2,14 @@
 
 ## Quick Links
 
-| ID | gen | solution | tests | statement | validator | others |
+| ID | gen | solution | tests | statement | validator | config |
 | --- | --- | --- | --- | --- | --- | --- |
-| Card | [gen](Card/gen) | [solution](Card/solution) | [tests](Card/tests) | [statement](Matching/statement) [problem.md](Card/statement/problem.md) | [validator](Card/validator) | |
-| Matching | [gen](Matching/gen) | [solution](Matching/solution) | [tests](Matching/tests) | [statement](Matching/statement) [problem.md](Matching/statement/problem.md) | [validator](Matching/validator) | [problem.json](Matching/problem.json) |
-| Puyo | [gen](Puyo/gen) | [solution](Puyo/solution) | [tests](Puyo/tests) | [statement](Matching/statement) [problem.md](Puyo/statement/problem.md) | [validator](Puyo/validator) | |
-| Route | [gen](Route/gen) | [solution](Route/solution) | [tests](Route/tests) | [statement](Route/statement) [problem.md](Route/statement/problem.md) | [validator](Route/validator) | [problem.json](Route/problem.json) [solutions.json](Route/solutions.json) |
-| Swap | [gen](Swap/gen) | [solution](Swap/solution) | [tests](Swap/tests) | [statement](Matching/statement) [problem.md](Swap/statement/problem.md) | [validator](Swap/validator) | |
-| Tree | [gen](Tree/gen) | [solution](Tree/solution) | [tests](Tree/tests) | [statement](Matching/statement) [problem.md](Tree/statement/problem.md) | [validator](Tree/validator) | |
+| Card | [gen](Card/gen) | [solution](Card/solution) | [tests](Card/tests) | [statement](Matching/statement) [problem](Card/statement/problem.md) | [validator](Card/validator) | [problem](Route/problem.json) [solutions](Route/solutions.json) [subtasks](Route/subtasks.json) |
+| Matching | [gen](Matching/gen) | [solution](Matching/solution) | [tests](Matching/tests) | [statement](Matching/statement) [problem](Matching/statement/problem.md) | [validator](Matching/validator) |[problem](Matching/problem.json) [solutions](Matching/solutions.json) [subtasks](Matching/subtasks.json) |
+| Puyo | [gen](Puyo/gen) | [solution](Puyo/solution) | [tests](Puyo/tests) | [statement](Matching/statement) [problem](Puyo/statement/problem.md) | [validator](Puyo/validator) | [problem](Route/problem.json) [solutions](Route/solutions.json) [subtasks](Route/subtasks.json) |
+| Route | [gen](Route/gen) | [solution](Route/solution) | [tests](Route/tests) | [statement](Route/statement) [problem](Route/statement/problem.md) | [validator](Route/validator) | [problem](Route/problem.json) [solutions](Route/solutions.json) [subtasks](Route/subtasks.json) |
+| Swap | [gen](Swap/gen) | [solution](Swap/solution) | [tests](Swap/tests) | [statement](Matching/statement) [problem](Swap/statement/problem.md) | [validator](Swap/validator) | [problem](Route/problem.json) [solutions](Route/solutions.json) [subtasks](Route/subtasks.json) |
+| Tree | [gen](Tree/gen) | [solution](Tree/solution) | [tests](Tree/tests) | [statement](Matching/statement) [problem](Tree/statement/problem.md) | [validator](Tree/validator) | [problem](Route/problem.json) [solutions](Route/solutions.json) [subtasks](Route/subtasks.json) |
 
 ## 資料夾結構
 每題中包含以下目錄和檔案：
