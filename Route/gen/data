@@ -15,14 +15,20 @@ gen m1 100 1000 qzgrn
 gen m1 1000 1000 bhsud
 
 @subtask straight
+gen straight 50 100 50 100 xzahz
+gen straight 50 100 50 100 blupd
+gen straight 100 1000 100 1000 edlng
+gen straight 100 1000 100 1000 jhxgr
+gen straight 1000 1000 1000 1000 tunng
+gen straight 1000 1000 1000 1000 dchwe
 
 @subtask nm<64
 gen norm 10 64 10 64 mfaax
 gen norm 10 64 10 64 jcbgr
 gen norm 10 64 10 64 jkcie
 gen norm 10 64 10 64 sdxlu
-gen norm 10 64 10 64 nxhnh
-gen norm 10 64 10 64 fahwm
+gen norm 64 64 64 64 nxhnh
+gen norm 64 64 64 64 fahwm
 
 @subtask random
 gen norm 100 1000 100 1000 hqfwr
