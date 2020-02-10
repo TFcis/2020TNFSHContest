@@ -1,7 +1,7 @@
 {
     "global_validators": [],
     "subtasks": {
-        "1": {
+        "1color": {
             "index": 1,
             "score": 5,
             "validators": []
