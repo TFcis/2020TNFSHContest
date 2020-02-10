@@ -1,22 +1,39 @@
-@subtask 1
-gen norm 5 30 30 30 ydmtx
-gen norm 5 30 30 30 zrnhj
-gen norm 30 30 5 30 qutxm
-gen norm 30 30 5 30 iqsds
-gen norm 30 30 30 30 qsvsu
+@subtask n*m=9
+gen norm 1 1 9 9 ydmtx
+gen norm 1 1 9 9 wgukk
+gen norm 3 3 3 3 iqsds
+gen norm 3 3 3 3 qsvsu
+gen norm 9 9 1 1 zrnhj
+gen norm 9 9 1 1 qutxm
 
-@subtask 2
-gen norm 10 100 10 100 csizh
-gen norm 10 100 10 100 xtqcy
-gen norm 10 100 10 100 ilhti
-gen norm 10 100 10 100 qzgrn
-gen norm 10 100 10 100 bhsud
+@subtask n=1orm=1
+gen n1 50 100 csizh
+gen n1 100 1000 xtqcy
+gen n1 1000 1000 omejx
+gen m1 50 100 ilhti
+gen m1 100 1000 qzgrn
+gen m1 1000 1000 bhsud
 
-@subtask 3
-gen norm 100 1000 100 1000 vhthf
-gen norm 100 1000 100 1000 jvnyj
-gen norm 100 1000 100 1000 mtkbd
-gen norm 100 1000 100 1000 cihky
-gen norm 1000 1000 1000 1000 xnvey
-gen slope 1000 1000
-gen rhombus 1000 1000
+@subtask straight
+gen slope 100 1000 100 1000 vhthf
+gen slope 100 1000 100 1000 jvnyj
+gen slope 1000 1000 1000 1000 rygfn
+gen rhombus 100 1000 100 1000 mtkbd
+gen rhombus 100 1000 100 1000 cihky
+gen rhombus 1000 1000 1000 1000 xnvey
+
+@subtask nm<64
+gen norm 10 64 10 64 mfaax
+gen norm 10 64 10 64 jcbgr
+gen norm 10 64 10 64 jkcie
+gen norm 10 64 10 64 sdxlu
+gen norm 10 64 10 64 nxhnh
+gen norm 10 64 10 64 fahwm
+
+@subtask random
+gen norm 100 1000 100 1000 hqfwr
+gen norm 100 1000 100 1000 zfrok
+gen norm 100 1000 100 1000 gqbaq
+gen norm 100 1000 100 1000 vlumv
+gen norm 1000 1000 1000 1000 dalcn
+gen norm 1000 1000 1000 1000 koddw

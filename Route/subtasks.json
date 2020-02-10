@@ -1,29 +1,29 @@
 {
     "global_validators": [],
     "subtasks": {
-        "1": {
+        "n*m=9": {
             "index": 1,
             "score": 5,
             "validators": []
         },
-        "2": {
+        "n=1orm=1": {
             "index": 2,
             "score": 10,
             "validators": []
         },
-        "3": {
+        "straight": {
             "index": 3,
             "score": 15,
             "validators": []
         },
-        "4": {
+        "nm<64": {
             "index": 4,
             "score": 20,
             "validators": []
         },
-        "5": {
+        "random": {
             "index": 3,
-            "score": 25,
+            "score": 50,
             "validators": []
         }
     }
