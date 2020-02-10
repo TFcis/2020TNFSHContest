@@ -1,9 +1,3 @@
----
-problemLabel: F
-problemName: 最小字典序DFS樹
-problemId: Tree
----
-
 #
 
 給定一棵樹（節點編號為 $1$ 至 $N$）以及一個正整數 $D$，  
