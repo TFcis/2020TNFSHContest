@@ -25,3 +25,11 @@ swap:
 tree:
 	cd Tree && tps statement
 	cmsImportTask -c 22 ./Tree/ -u
+
+import:
+	cmsImportTask -c 22 ./Card/ -u
+	cmsImportTask -c 22 ./Matching/ -u
+	cmsImportTask -c 22 ./Puyo/ -u
+	cmsImportTask -c 22 ./Route/ -u
+	cmsImportTask -c 22 ./Swap/ -u
+	cmsImportTask -c 22 ./Tree/ -u
