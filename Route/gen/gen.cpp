@@ -205,6 +205,17 @@ void gen_rhombus(int N, int M) {
 	}
 }
 
+void gen_L(int N, int M) {
+	cout << N << " " << M << endl;
+
+	for (int q = 0; q < N; q++) {
+		for (int w = 0; w < M; w++) {
+			cout << max(q % 10, w % 10);
+		}
+		cout << endl;
+	}
+}
+
 int main(int argc, char* argv[]) {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
@@ -241,7 +252,7 @@ int main(int argc, char* argv[]) {
 		int M = atoi(argv[3]);
 
 		gen_slope(N, M);
-	}  else if (MODE == "slope2") {
+	} else if (MODE == "slope2") {
 		int N = atoi(argv[2]);
 		int M = atoi(argv[3]);
 
@@ -251,6 +262,11 @@ int main(int argc, char* argv[]) {
 		int M = atoi(argv[3]);
 
 		gen_rhombus(N, M);
+	} else if (MODE == "L") {
+		int N = atoi(argv[2]);
+		int M = atoi(argv[3]);
+
+		gen_L(N, M);
 	} else {
 		cout << "FAIL" << endl;
 		return -1;
