@@ -119,6 +119,17 @@ void gen_slope(int N, int M) {
 	}
 }
 
+void gen_slope2(int N, int M) {
+	cout << N << " " << M << endl;
+
+	for (int q = 0; q < N; q++) {
+		for (int w = 0; w < M; w++) {
+			cout << 9 - abs((q + w) % 18 - 9);
+		}
+		cout << endl;
+	}
+}
+
 void gen_straight(int MIN_N, int MAX_N, int MIN_M, int MAX_M) {
 	int N = rnd.next(MIN_N, MAX_N);
 	int M = rnd.next(MIN_M, MAX_M);
@@ -230,6 +241,11 @@ int main(int argc, char* argv[]) {
 		int M = atoi(argv[3]);
 
 		gen_slope(N, M);
+	}  else if (MODE == "slope2") {
+		int N = atoi(argv[2]);
+		int M = atoi(argv[3]);
+
+		gen_slope2(N, M);
 	} else if (MODE == "rhombus") {
 		int N = atoi(argv[2]);
 		int M = atoi(argv[3]);
