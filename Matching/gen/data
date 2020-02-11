@@ -13,8 +13,8 @@ gen norm 10 100 qzgrn
 gen norm 10 100 bhsud
 
 @subtask 3
-gen norm 100 1000 vhthf
-gen norm 100 1000 jvnyj
-gen norm 100 1000 mtkbd
-gen norm 100 1000 cihky
-gen norm 1000 1000 xnvey
+gen norm 100 500 vhthf
+gen norm 100 500 jvnyj
+gen norm 100 500 mtkbd
+gen norm 100 500 cihky
+gen norm 500 500 xnvey
