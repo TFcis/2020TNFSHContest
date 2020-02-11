@@ -11,6 +11,7 @@ gen 1color 2 yepzv
 @subtask leftline
 
 @subtask random
+manual sample-01.in
 gen random 4 dbnbs
 gen random 4 vhihn
 gen random 4 shoqh
