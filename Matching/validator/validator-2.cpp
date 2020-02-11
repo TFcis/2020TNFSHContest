@@ -6,7 +6,7 @@ using namespace std;
 int main() {
 	registerValidation();
 
-	int N = inf.readInt(1, 500);
+	int N = inf.readInt(1, 100);
 	inf.readEoln();
 
 	for (int q = 0; q < N; q++) {
