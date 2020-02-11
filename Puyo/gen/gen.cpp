@@ -19,9 +19,9 @@ void gen_1color(int K) {
 	} else if (K == 2) {
 		pos1 = rnd.next(0, 1);
 		if (pos1 == 1) {
-			pos2 = rnd.next(4, 5);
-		} else {
 			pos2 = 5;
+		} else {
+			pos2 = rnd.next(4, 5);
 		}
 	}
 
