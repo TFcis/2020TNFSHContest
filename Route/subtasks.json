@@ -1,15 +1,21 @@
 {
-    "global_validators": [],
+    "global_validators": [
+        "validator.cpp"
+    ],
     "subtasks": {
         "n*m=9": {
             "index": 1,
             "score": 5,
-            "validators": []
+            "validators": [
+                "validator-nm9.cpp"
+            ]
         },
         "n=1orm=1": {
             "index": 2,
             "score": 10,
-            "validators": []
+            "validators": [
+                "validator-n1orm1.cpp"
+            ]
         },
         "straight": {
             "index": 3,
@@ -19,7 +25,9 @@
         "nm<64": {
             "index": 4,
             "score": 20,
-            "validators": []
+            "validators": [
+                "validator-nm64.cpp"
+            ]
         },
         "random": {
             "index": 3,
