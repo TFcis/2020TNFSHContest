@@ -1,5 +1,5 @@
 {
-    "global_validators": [],
+    "global_validators": ["validator.cpp"],
     "subtasks": {
         "1color": {
             "index": 1,
