@@ -7,23 +7,29 @@ int main() {
 	registerValidation();
 
 	int N = inf.readInt(1, 300000);
+	ensure(N <= 10);
+	inf.readEoln();
+
+	int t;
+
+	t = inf.readInt();
+	ensure(t == 1);
+	for (int q = 2; q <= N; q++) {
+		inf.readSpace();
+		t = inf.readInt();
+		ensure(t == q);
+	}
 	inf.readEoln();
 
 	inf.readInt();
-	for (int q = 2; q <= N; q++) {
+	for (int q = 1; q < N; q++) {
 		inf.readSpace();
 		inf.readInt();
 	}
 	inf.readEoln();
 
-	inf.readInt();
-	for (int q = 2; q <= N; q++) {
-		inf.readSpace();
-		inf.readInt();
-	}
-	inf.readEoln();
-
-	inf.readLong();
+	int K = inf.readLong();
+	ensure(K == 1);
 	inf.readEoln();
 
 	inf.readEof();

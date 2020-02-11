@@ -7,6 +7,7 @@ int main() {
 	registerValidation();
 
 	int N = inf.readInt(1, 300000);
+	ensure(N <= 3000);
 	inf.readEoln();
 
 	inf.readInt();
@@ -17,13 +18,13 @@ int main() {
 	inf.readEoln();
 
 	inf.readInt();
-	for (int q = 2; q <= N; q++) {
+	for (int q = 1; q < N; q++) {
 		inf.readSpace();
 		inf.readInt();
 	}
 	inf.readEoln();
 
-	inf.readLong();
+	int K = inf.readLong();
 	inf.readEoln();
 
 	inf.readEof();
