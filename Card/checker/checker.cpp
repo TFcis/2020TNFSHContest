@@ -25,7 +25,7 @@ int main(int argc, char* argv[]) {
 		n++;
 
 		if (j != p)
-			quitf(_wa, "Wrong Answer: %d%s lines differ - expected: '%s', found: '%s'", n, englishEnding(n).c_str(), compress(j).c_str(), compress(p).c_str());
+			quitf(_wa, "%d%s lines differ - expected: '%s', found: '%s'", n, englishEnding(n).c_str(), compress(j).c_str(), compress(p).c_str());
 	}
 
 	quitf(_ok, "Accepted");
