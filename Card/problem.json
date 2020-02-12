@@ -3,7 +3,7 @@
 	"problem_label": "D",
 	"name": "Card",
 	"code": "Card",
-	"title": "洗牌",
+	"title": "公平洗牌",
 	"memory_limit": 512,
 	"time_limit": 3.0,
 	"type": "Batch",

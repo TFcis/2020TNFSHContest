@@ -3,7 +3,7 @@
 	"problem_label": "F",
 	"name": "Swap",
 	"code": "Swap",
-	"title": "序列交換次數",
+	"title": "樓層交換",
 	"memory_limit": 512,
 	"time_limit": 3.0,
 	"type": "Batch",
