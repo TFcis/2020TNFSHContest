@@ -34,6 +34,10 @@ int main() {
 			dfs(i,i);
 			break;
 		}
+	if ( ans.empty() ) {
+		cout << -1 << '\n';
+		return 0;
+	}
 	for(int i=0;i<n;i++) {
 		if(i!=0)	cout << " ";
 		cout << ans[i];
