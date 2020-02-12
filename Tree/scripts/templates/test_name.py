@@ -5,7 +5,7 @@ def get_test_name(task_data, testset_name, testset_index, subtask_index, test_in
     if task_data['type'] == "OutputOnly":
         return "%02d" % test_index
     else:
-        return (testset_name if subtask_index < 0 else str(subtask_index)) + "-%02d" % test_offset
+        return "%02d%02d" % (subtask_index+1, test_offset)
 
 if __name__ == '__main__':
     if len(sys.argv) < 8:
