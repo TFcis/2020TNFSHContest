@@ -1,6 +1,6 @@
 {
 	"contest_name": "2020臺南一中校內賽",
-	"problem_label": "F",
+	"problem_label": "E",
 	"name": "Tree",
 	"code": "Tree",
 	"title": "最小字典序DFS樹",
