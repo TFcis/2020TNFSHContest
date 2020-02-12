@@ -119,6 +119,9 @@ function handle_positional_arg {
 
 argument_parser "handle_positional_arg" "handle_option" "$@"
 
+echo "Invoking ${solution}"
+echo
+
 if variable_not_exists "solution" ; then
 	errcho "Solution is not specified."
 	usage
@@ -201,5 +204,7 @@ if [ ${ret} -eq 0 ]; then
 else
 	cecho fail "Terminated."
 fi
+
+echo "-------------------------------------------------------------------------"
 
 exit ${ret}
