@@ -24,6 +24,9 @@ int main(int argc, char* argv[]) {
 
 		n++;
 
+		j.erase(j.find_last_not_of("\t\n\v\f\r ") + 1);
+		p.erase(p.find_last_not_of("\t\n\v\f\r ") + 1);
+
 		if (j != p)
 			quitf(_wa, "%d%s lines differ - expected: '%s', found: '%s'", n, englishEnding(n).c_str(), compress(j).c_str(), compress(p).c_str());
 	}
