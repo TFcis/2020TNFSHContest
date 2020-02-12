@@ -1,9 +1,9 @@
 {
 	"contest_name": "2020臺南一中校內賽",
-	"problem_label": "D",
+	"problem_label": "B",
 	"name": "Route",
 	"code": "Route",
-	"title": "路徑個數",
+	"title": "完美河道",
 	"memory_limit": 256,
 	"time_limit": 1.0,
 	"type": "Batch",
