@@ -1,6 +1,6 @@
 nothing:
 
-all: card matching puyo route swap tree
+all: card matching puyo route swap circle
 
 card:
 	cd Card && tps statement
@@ -53,15 +53,15 @@ swap-check:
 	cd Swap && tps invoke solution/subtask2.cpp | tee -a solution/check.txt
 	cd Swap && tps invoke solution/subtask3.cpp | tee -a solution/check.txt
 
-tree:
-	cd Tree && tps statement
-	cmsImportTask -c 22 ./Tree/ -u
+circle:
+	cd Circle && tps statement
+	cmsImportTask -c 22 ./Circle/ -u
 
-tree-check:
-	cd Tree && > solution/check.txt
-	cd Tree && tps invoke solution/100pt.cpp | tee -a solution/check.txt
-	cd Tree && tps invoke solution/subtask1.cpp | tee -a solution/check.txt
-	cd Tree && tps invoke solution/subtask2.cpp | tee -a solution/check.txt
+circle-check:
+	cd Circle && > solution/check.txt
+	cd Circle && tps invoke solution/100pt.cpp | tee -a solution/check.txt
+	cd Circle && tps invoke solution/subtask1.cpp | tee -a solution/check.txt
+	cd Circle && tps invoke solution/subtask2.cpp | tee -a solution/check.txt
 
 import:
 	cmsImportTask -c 22 ./Card/ -u
@@ -69,4 +69,4 @@ import:
 	cmsImportTask -c 22 ./Puyo/ -u
 	cmsImportTask -c 22 ./Route/ -u
 	cmsImportTask -c 22 ./Swap/ -u
-	cmsImportTask -c 22 ./Tree/ -u
+	cmsImportTask -c 22 ./Circle/ -u
