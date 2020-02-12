@@ -1,9 +1,9 @@
 {
 	"contest_name": "2020臺南一中校內賽",
-	"problem_label": "B",
+	"problem_label": "A",
 	"name": "Matching",
 	"code": "Matching",
-	"title": "連連看",
+	"title": "二分圖匹配",
 	"memory_limit": 256,
 	"time_limit": 1.0,
 	"type": "Batch",
