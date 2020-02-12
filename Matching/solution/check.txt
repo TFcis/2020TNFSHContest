@@ -1,0 +1,46 @@
+Invoking solution/100pt.cpp
+
+solution            compile[OK]
+checker             compile[OK]
+0-01                sol[OK]    0.008     check[OK]          [ok Accepted]         
+1-01                sol[OK]    0.009     check[OK]          [ok Accepted]         
+1-02                sol[OK]    0.010     check[OK]          [ok Accepted]         
+1-03                sol[OK]    0.008     check[OK]          [ok Accepted]         
+1-04                sol[OK]    0.009     check[OK]          [ok Accepted]         
+1-05                sol[OK]    0.008     check[OK]          [ok Accepted]         
+2-01                sol[OK]    0.008     check[OK]          [ok Accepted]         
+2-02                sol[OK]    0.008     check[OK]          [ok Accepted]         
+2-03                sol[OK]    0.009     check[OK]          [ok Accepted]         
+2-04                sol[OK]    0.010     check[OK]          [ok Accepted]         
+2-05                sol[OK]    0.008     check[OK]          [ok Accepted]         
+3-01                sol[OK]    0.009     check[OK]          [ok Accepted]         
+3-02                sol[OK]    0.009     check[OK]          [ok Accepted]         
+3-03                sol[OK]    0.009     check[OK]          [ok Accepted]         
+3-04                sol[OK]    0.010     check[OK]          [ok Accepted]         
+3-05                sol[OK]    0.009     check[OK]          [ok Accepted]         
+
+Finished.
+-------------------------------------------------------------------------
+Invoking solution/xiplus.cpp
+
+solution            compile[OK]
+checker             compile[OK]
+0-01                sol[OK]    0.009     check[OK]          [ok Accepted]         
+1-01                sol[OK]    0.008     check[OK]          [ok Accepted]         
+1-02                sol[OK]    0.008     check[OK]          [ok Accepted]         
+1-03                sol[OK]    0.010     check[OK]          [ok Accepted]         
+1-04                sol[OK]    0.009     check[OK]          [ok Accepted]         
+1-05                sol[OK]    0.008     check[OK]          [ok Accepted]         
+2-01                sol[OK]    0.008     check[OK]          [ok Accepted]         
+2-02                sol[OK]    0.008     check[OK]          [ok Accepted]         
+2-03                sol[OK]    0.009     check[OK]          [ok Accepted]         
+2-04                sol[OK]    0.009     check[OK]          [ok Accepted]         
+2-05                sol[OK]    0.009     check[OK]          [ok Accepted]         
+3-01                sol[OK]    0.013     check[OK]          [ok Accepted]         
+3-02                sol[OK]    0.009     check[OK]          [ok Accepted]         
+3-03                sol[OK]    0.009     check[OK]          [ok Accepted]         
+3-04                sol[OK]    0.008     check[OK]          [ok Accepted]         
+3-05                sol[OK]    0.009     check[OK]          [ok Accepted]         
+
+Finished.
+-------------------------------------------------------------------------

@@ -1,0 +1,96 @@
+Invoking solution/100pt.cpp
+
+solution            compile[OK]
+checker             compile[OK]
+101                 sol[OK]    0.009     check[OK]          [ok Accepted]         
+102                 sol[OK]    0.008     check[OK]          [ok Accepted]         
+103                 sol[OK]    0.008     check[OK]          [ok Accepted]         
+201                 sol[OK]    0.009     check[OK]          [ok Accepted]         
+202                 sol[OK]    0.009     check[OK]          [ok Accepted]         
+203                 sol[OK]    0.009     check[OK]          [ok Accepted]         
+301                 sol[OK]    0.010     check[OK]          [ok Accepted]         
+302                 sol[OK]    0.013     check[OK]          [ok Accepted]         
+303                 sol[OK]    0.010     check[OK]          [ok Accepted]         
+401                 sol[OK]    0.204     check[OK]          [ok Accepted]         
+402                 sol[OK]    0.155     check[OK]          [ok Accepted]         
+403                 sol[OK]    0.226     check[OK]          [ok Accepted]         
+404                 sol[OK]    0.265     check[OK]          [ok Accepted]         
+405                 sol[OK]    0.336     check[OK]          [ok Accepted]         
+406                 sol[OK]    0.540     check[OK]          [ok Accepted]         
+407                 sol[OK]    0.422     check[OK]          [ok Accepted]         
+408                 sol[OK]    0.503     check[OK]          [ok Accepted]         
+
+Finished.
+-------------------------------------------------------------------------
+Invoking solution/subtask1.cpp
+
+solution            compile[OK]
+checker             compile[OK]
+101                 sol[OK]    0.009     check[OK]          [ok Accepted]         
+102                 sol[OK]    0.009     check[OK]          [ok Accepted]         
+103                 sol[OK]    0.008     check[OK]          [ok Accepted]         
+201                 sol[FAIL]  0.116     check[SKIP]     0  [Runtime Error]       
+202                 sol[FAIL]  0.115     check[SKIP]     0  [Runtime Error]       
+203                 sol[FAIL]  0.117     check[SKIP]     0  [Runtime Error]       
+301                 sol[FAIL]  0.120     check[SKIP]     0  [Runtime Error]       
+302                 sol[FAIL]  0.113     check[SKIP]     0  [Runtime Error]       
+303                 sol[FAIL]  0.122     check[SKIP]     0  [Runtime Error]       
+401                 sol[FAIL]  0.122     check[SKIP]     0  [Runtime Error]       
+402                 sol[FAIL]  0.120     check[SKIP]     0  [Runtime Error]       
+403                 sol[FAIL]  0.117     check[SKIP]     0  [Runtime Error]       
+404                 sol[FAIL]  0.115     check[SKIP]     0  [Runtime Error]       
+405                 sol[FAIL]  0.115     check[SKIP]     0  [Runtime Error]       
+406                 sol[FAIL]  0.122     check[SKIP]     0  [Runtime Error]       
+407                 sol[FAIL]  0.118     check[SKIP]     0  [Runtime Error]       
+408                 sol[FAIL]  0.115     check[SKIP]     0  [Runtime Error]       
+
+Finished.
+-------------------------------------------------------------------------
+Invoking solution/subtask2.cpp
+
+solution            compile[OK]
+checker             compile[OK]
+101                 sol[OK]    0.010     check[OK]          [ok Accepted]         
+102                 sol[OK]    0.010     check[OK]          [ok Accepted]         
+103                 sol[OK]    0.010     check[OK]          [ok Accepted]         
+201                 sol[OK]    0.009     check[OK]          [ok Accepted]         
+202                 sol[OK]    0.015     check[OK]          [ok Accepted]         
+203                 sol[OK]    0.017     check[OK]          [ok Accepted]         
+301                 sol[FAIL]  5.011     check[SKIP]     0  [Time Limit Exceeded] 
+302                 sol[OK]    1.001     check[OK]          [ok Accepted]         
+303                 sol[FAIL]  5.012     check[SKIP]     0  [Time Limit Exceeded] 
+401                 sol[FAIL]  5.010     check[SKIP]     0  [Time Limit Exceeded] 
+402                 sol[FAIL]  5.010     check[SKIP]     0  [Time Limit Exceeded] 
+403                 sol[FAIL]  5.012     check[SKIP]     0  [Time Limit Exceeded] 
+404                 sol[FAIL]  5.010     check[SKIP]     0  [Time Limit Exceeded] 
+405                 sol[FAIL]  5.010     check[SKIP]     0  [Time Limit Exceeded] 
+406                 sol[FAIL]  5.010     check[SKIP]     0  [Time Limit Exceeded] 
+407                 sol[FAIL]  5.011     check[SKIP]     0  [Time Limit Exceeded] 
+408                 sol[FAIL]  5.010     check[SKIP]     0  [Time Limit Exceeded] 
+
+Finished.
+-------------------------------------------------------------------------
+Invoking solution/subtask3.cpp
+
+solution            compile[OK]
+checker             compile[OK]
+101                 sol[OK]    0.009     check[OK]          [ok Accepted]         
+102                 sol[OK]    0.009     check[OK]          [ok Accepted]         
+103                 sol[OK]    0.009     check[OK]          [ok Accepted]         
+201                 sol[OK]    0.008     check[OK]          [ok Accepted]         
+202                 sol[OK]    0.009     check[OK]          [ok Accepted]         
+203                 sol[OK]    0.009     check[OK]          [ok Accepted]         
+301                 sol[OK]    0.018     check[OK]          [ok Accepted]         
+302                 sol[OK]    0.011     check[OK]          [ok Accepted]         
+303                 sol[OK]    0.015     check[OK]          [ok Accepted]         
+401                 sol[FAIL]  5.012     check[SKIP]     0  [Time Limit Exceeded] 
+402                 sol[FAIL]  5.011     check[SKIP]     0  [Time Limit Exceeded] 
+403                 sol[FAIL]  5.010     check[SKIP]     0  [Time Limit Exceeded] 
+404                 sol[OK]    0.281     check[OK]          [ok Accepted]         
+405                 sol[OK]    0.320     check[OK]          [ok Accepted]         
+406                 sol[OK]    0.137     check[OK]          [ok Accepted]         
+407                 sol[OK]    0.148     check[OK]          [ok Accepted]         
+408                 sol[OK]    0.133     check[OK]          [ok Accepted]         
+
+Finished.
+-------------------------------------------------------------------------

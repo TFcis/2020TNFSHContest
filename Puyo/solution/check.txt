@@ -1,0 +1,20 @@
+Invoking solution/ac.cpp
+
+solution            compile[WARN]
+checker             compile[OK]
+0-01                sol[OK]    0.008     check[OK]          [ok Accepted]         
+0-02                sol[OK]    0.008     check[OK]          [ok Accepted]         
+0-03                sol[OK]    0.008     check[OK]          [ok Accepted]         
+0-04                sol[OK]    0.010     check[OK]          [ok Accepted]         
+0-05                sol[OK]    0.008     check[OK]          [ok Accepted]         
+0-06                sol[OK]    0.008     check[OK]          [ok Accepted]         
+3-01                sol[OK]    0.008     check[OK]          [ok Accepted]         
+3-02                sol[OK]    0.008     check[OK]          [ok Accepted]         
+3-03                sol[OK]    0.008     check[OK]          [ok Accepted]         
+3-04                sol[OK]    0.008     check[OK]          [ok Accepted]         
+3-05                sol[OK]    0.009     check[OK]          [ok Accepted]         
+3-06                sol[OK]    0.008     check[OK]          [ok Accepted]         
+3-07                sol[OK]    0.008     check[OK]          [ok Accepted]         
+
+Finished.
+-------------------------------------------------------------------------
