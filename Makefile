@@ -78,3 +78,9 @@ import:
 	cmsImportTask -c 22 ./Route/ -u
 	cmsImportTask -c 22 ./Swap/ -u
 	cmsImportTask -c 22 ./Circle/ -u
+
+merge-pdf:
+	pdfunite Matching/statement/problem.pdf Route/statement/problem.pdf Puyo/statement/problem.pdf Card/statement/problem.pdf Circle/statement/problem.pdf Swap/statement/problem.pdf problems.pdf
+	mkdir -p Matching/attachments
+	cp problems.pdf Matching/attachments
+	cmsImportTask -c 22 ./Matching/ -u
