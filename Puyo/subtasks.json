@@ -1,5 +1,8 @@
 {
-    "global_validators": ["validator.cpp"],
+    "global_validators": [
+        "validator.cpp",
+        "check_by_Yazmau.cpp"
+    ],
     "subtasks": {
         "1color": {
             "index": 1,
