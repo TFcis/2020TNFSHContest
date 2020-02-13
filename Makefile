@@ -4,6 +4,7 @@ all: card matching puyo route swap circle
 
 card:
 	cd Card && tps statement
+	cd Card && tps gen --no-gen
 	cmsImportTask -c 22 ./Card/ -u
 
 card-check:
@@ -18,6 +19,7 @@ card-check:
 
 matching:
 	cd Matching && tps statement
+	cd Matching && tps gen
 	cmsImportTask -c 22 ./Matching/ -u
 
 matching-check:
@@ -29,6 +31,7 @@ matching-check:
 
 puyo:
 	cd Puyo && tps statement
+	cd Puyo && tps gen
 	cmsImportTask -c 22 ./Puyo/ -u
 
 puyo-check:
@@ -37,6 +40,7 @@ puyo-check:
 
 route:
 	cd Route && tps statement
+	cd Route && tps gen
 	cmsImportTask -c 22 ./Route/ -u
 
 route-check:
@@ -46,6 +50,7 @@ route-check:
 
 swap:
 	cd Swap && tps statement
+	cd Swap && tps gen --no-gen
 	cmsImportTask -c 22 ./Swap/ -u
 
 swap-check:
@@ -57,6 +62,7 @@ swap-check:
 
 circle:
 	cd Circle && tps statement
+	cd Circle && tps gen --no-gen
 	cmsImportTask -c 22 ./Circle/ -u
 
 circle-check:
