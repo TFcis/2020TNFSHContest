@@ -41,6 +41,9 @@ int check_connected(int arr[12][6], int posy, int posx, int color) {
 	if (used[posy][posx]) {
 		return 0;
 	}
+	if (posy < 0 || posy >= 12 || posx < 0 || posx >= 6) {
+		return 0;
+	}
 	if (arr[posy][posx] != color) {
 		return 0;
 	}
@@ -68,7 +71,7 @@ void gen_random(int K) {
 	while (Cnt) {
 		int dir = rnd.next(1, 2);
 		int posx1, posy1, posx2, posy2;
-		if (dir == 1) {
+		if (dir == 1) {  // 水平
 			posx1 = rnd.next(0, 4);
 			posx2 = posx1 + 1;
 			if (arr[0][posx1] == 0 && arr[0][posx2] == 0) {
@@ -87,7 +90,7 @@ void gen_random(int K) {
 			} else {
 				posx1 = -1;
 			}
-		} else {
+		} else {  // 垂直
 			posx1 = rnd.next(0, 5);
 			posx2 = posx1;
 			if (arr[0][posx1] == 0 && arr[1][posx2] == 0) {
