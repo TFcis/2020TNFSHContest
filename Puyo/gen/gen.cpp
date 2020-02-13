@@ -115,6 +115,8 @@ void gen_random(int K) {
 			// cout << "------" << endl;
 			if (check_connected(arr, posy1, posx1, colors[color]) >= 4) {
 				ok = false;
+			} else if (check_connected(arr, posy2, posx2, colors[color]) >= 4) {
+				ok = false;
 			}
 			if (ok) {
 				Cnt--;
