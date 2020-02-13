@@ -1,6 +1,6 @@
 nothing:
 
-all: card matching puyo route swap circle
+all: card matching puyo route swap circle merge-pdf
 
 card:
 	cd Card && tps statement
