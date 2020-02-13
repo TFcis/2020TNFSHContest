@@ -23,7 +23,9 @@ matching:
 matching-check:
 	cd Matching && > solution/check.txt
 	cd Matching && tps invoke solution/100pt.cpp | tee -a solution/check.txt
+	cd Matching && tps invoke solution/Yazmau-WA.cpp | tee -a solution/check.txt
 	cd Matching && tps invoke solution/xiplus.cpp | tee -a solution/check.txt
+	cd Matching && tps invoke solution/xiplus-WA.cpp | tee -a solution/check.txt
 
 puyo:
 	cd Puyo && tps statement
