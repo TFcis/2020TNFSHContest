@@ -10,3 +10,6 @@ clean:
 
 %.exe: %.cpp testlib.h
 	g++ -std=gnu++1y -Wall -Wextra -O2 $< -o $@
+
+compile_outputs_list:
+	@echo $(COMPILE_OUTPUTS)
