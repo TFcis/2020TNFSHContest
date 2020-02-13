@@ -1,5 +1,8 @@
 {
 	"ac.cpp": {
 		"verdict": "model_solution"
+	},
+	"subtask2.cpp": {
+		"verdict": "partially_correct"
 	}
 }

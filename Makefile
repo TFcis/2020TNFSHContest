@@ -37,6 +37,7 @@ puyo:
 puyo-check:
 	cd Puyo && > solution/check.txt
 	cd Puyo && tps invoke solution/ac.cpp | tee -a solution/check.txt
+	cd Puyo && tps invoke solution/subtask2.cpp | tee -a solution/check.txt
 
 route:
 	cd Route && tps statement
