@@ -7,10 +7,3 @@
 */sandbox/
 */tests/gen_summary
 */tests/mapping
-
-Matching/tests/*.in
-Matching/tests/*.out
-Puyo/tests/*.in
-Puyo/tests/*.out
-Route/tests/*.in
-Route/tests/*.out
