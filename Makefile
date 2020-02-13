@@ -85,3 +85,11 @@ merge-pdf:
 	mkdir -p Matching/attachments
 	cp problems.pdf Matching/attachments
 	cmsImportTask -c 22 ./Matching/ -u
+
+statement:
+	cd Card && tps statement
+	cd Circle && tps statement
+	cd Matching && tps statement
+	cd Puyo && tps statement
+	cd Route && tps statement
+	cd Swap && tps statement
