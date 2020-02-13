@@ -70,4 +70,4 @@ Puyo消除後，上方的Puyo就會落下，若再次有同色相連達 4 顆就
 
 ## 提示
 可使用這個模擬器來幫助作答：[https://cms.tfcis.org/contests/20200213TOIPre/puyo_simulator/puyo.html](https://cms.tfcis.org/contests/20200213TOIPre/puyo_simulator/puyo.html)  
-範測的盤面為：[https://cms.tfcis.org/contests/20200213TOIPre/puyo_simulator/puyo.html?a8deada4cba3dec2ade2cdadbdcdecbdbecbdb2decbe2decececbdcec3bd2cb2de3](https://cms.tfcis.org/contests/20200213TOIPre/puyo_simulator/puyo.html?a8deada4cba3dec2ade2cdadbdcdecbdbecbdb2decbe2decececbdcec3bd2cb2de3)  
+範例輸入輸出的盤面為：[https://cms.tfcis.org/contests/20200213TOIPre/puyo_simulator/puyo.html?a8deada4cba3dec2ade2cdadbdcdecbdbecbdb2decbe2decececbdcec3bd2cb2de3](https://cms.tfcis.org/contests/20200213TOIPre/puyo_simulator/puyo.html?a8deada4cba3dec2ade2cdadbdcdecbdbecbdb2decbe2decececbdcec3bd2cb2de3)  
