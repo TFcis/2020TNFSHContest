@@ -8,7 +8,7 @@ void gen_1color(int K) {
 
 	cout << color << color << endl;
 
-	int cnt = rnd.next(1, 3);
+	int cnt = K;
 
 	int arr[12][6];
 	memset(arr, 0, sizeof(arr));
