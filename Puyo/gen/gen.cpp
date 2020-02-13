@@ -8,31 +8,29 @@ void gen_1color(int K) {
 
 	cout << color << color << endl;
 
-	for (int q = 0; q < 11; q++) {
-		cout << "000000" << endl;
-	}
+	int cnt = rnd.next(1, 3);
 
-	int pos1 = -1;
-	int pos2 = -1;
-	if (K == 1) {
-		pos1 = rnd.next(6);
-	} else if (K == 2) {
-		pos1 = rnd.next(0, 1);
-		if (pos1 == 1) {
-			pos2 = 5;
-		} else {
-			pos2 = rnd.next(4, 5);
+	int arr[12][6];
+	memset(arr, 0, sizeof(arr));
+
+	while (cnt--) {
+		int pos = rnd.next(6);
+		arr[0][pos] = color;
+		for (int q = 1; q < 12; q++) {
+			if (arr[q][pos] == 0) {
+				swap(arr[q][pos], arr[q - 1][pos]);
+			} else {
+				break;
+			}
 		}
 	}
 
-	for (int q = 0; q < 6; q++) {
-		if (q == pos1 || q == pos2) {
-			cout << color;
-		} else {
-			cout << "0";
+	for (int q = 0; q < 12; q++) {
+		for (int w = 0; w < 6; w++) {
+			cout << arr[q][w];
 		}
+		cout << endl;
 	}
-	cout << endl;
 }
 
 bool used[12][6];
