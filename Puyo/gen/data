@@ -10,6 +10,9 @@ gen 1color 2 yepzv
 manual 2-1.in
 manual 2-2.in
 manual 2-3.in
+manual 2-4.in
+manual 2-5.in
+manual 2-6.in
 
 @subtask leftline
 manual 3-1.in
