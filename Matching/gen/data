@@ -2,22 +2,22 @@
 manual sample-01.in
 
 @subtask 2
-gen norm 5 10 ydmtx
-gen norm 5 10 zrnhj
-gen norm 5 10 qutxm
-gen norm 5 10 iqsds
-gen norm 5 10 qsvsu
+manual 1-1.in
+gen norm2 5 10 zrnhj
+gen norm2 5 10 qutxm
+gen norm2 5 10 iqsds
+gen norm2 5 10 qsvsu
 
 @subtask 3
-gen norm 10 100 csizh
-gen norm 10 100 xtqcy
-gen norm 10 100 ilhti
-gen norm 10 100 qzgrn
-gen norm 10 100 bhsud
+gen norm2 10 100 csizh
+gen norm2 10 100 xtqcy
+gen norm2 10 100 ilhti
+gen norm2 10 100 qzgrn
+gen norm2 10 100 bhsud
 
 @subtask 4
-gen norm 100 500 vhthf
-gen norm 100 500 jvnyj
-gen norm 100 500 mtkbd
-gen norm 100 500 cihky
-gen norm 500 500 xnvey
+gen norm2 100 500 vhthf
+gen norm2 100 500 jvnyj
+gen norm2 100 500 mtkbd
+gen norm2 100 500 cihky
+gen norm2 500 500 xnvey

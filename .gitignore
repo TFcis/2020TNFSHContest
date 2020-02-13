@@ -10,7 +10,7 @@
 
 Matching/tests/*.in
 Matching/tests/*.out
-# Puyo/tests/*.in
+Puyo/tests/*.in
 Puyo/tests/*.out
 Route/tests/*.in
 Route/tests/*.out

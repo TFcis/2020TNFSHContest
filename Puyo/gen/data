@@ -7,14 +7,38 @@ gen 1color 2 wwcje
 gen 1color 2 yepzv
 
 @subtask 4clear
+manual 2-1.in
+manual 2-2.in
+manual 2-3.in
+manual 2-4.in
+manual 2-5.in
+manual 2-6.in
 
 @subtask leftline
+manual 3-1.in
+manual 3-2.in
+manual 3-3.in
+manual 3-4.in
+manual 3-5.in
 
 @subtask random
 manual sample-01.in
 gen random 4 dbnbs
 gen random 4 vhihn
 gen random 4 shoqh
+gen random 4 bafnx
+gen random 4 ivpsn
+gen random 4 oeqhj
+gen random 4 mggsx
+gen random 4 pwhzm
+gen random 4 zibhm
 gen random 5 mlwow
 gen random 5 clmsi
 gen random 5 cwsln
+gen random 5 fqtwa
+gen random 5 jgbzo
+gen random 5 eftoh
+gen random 5 pmltc
+gen random 5 lpwdb
+gen random 5 himzh
+gen random 5 ssjhw
