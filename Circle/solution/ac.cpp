@@ -77,8 +77,13 @@ int32_t main()  {
 	if ( st == 0 )	cout << -1 << '\n';
 	else {
 		dfs_min(st,st);
+		bool firstitem = true;
 		for ( int i : ans ) {
-			cout << i << ' ';
+			if (!firstitem) {
+				cout << ' ';
+			}
+			cout << i;
+			firstitem = false;
 		}
 		cout << '\n';
 	}
